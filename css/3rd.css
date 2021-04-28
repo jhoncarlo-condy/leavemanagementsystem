@@ -1,0 +1,93 @@
+.admin-banner1{
+	width: 50%;
+	height: 100px;
+	background-color: darkred;
+	margin-top: 100px;
+}
+.bannerright{
+	background-color: white;
+	float: right;
+	height: 100%;
+	width: 200px;
+	
+}
+.bannerright img{
+	text-align: center;
+	margin-top: 180px;
+}
+.bannerright1{
+	background-color: white;
+	float: right;
+	height: 100%;
+	width: 200px;
+}
+.bannerright1 img{
+		float: right;
+		position: fixed;
+		margin-top: 130px;
+		height: 100%;
+		width: 200px;
+	}
+
+
+.tourismpic{
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+.tourismpic img{
+	width: 600px;
+	border-radius: 30px;
+	height: 300px;
+
+}
+.tourism-head p{
+	font-size: 20pt;
+	font-weight: bold;
+	margin-left: 50px;
+}
+.tourism-content p{
+	font-size: 15pt;
+	margin-left: 50px;
+}
+.tourismpic button{
+	background-color: darkred; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 200px;
+    margin-top: -200px;
+}
+.tourismpic button:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+#asd{
+	float: right;
+	margin-right: 100px;
+	font-size: 25pt;
+	margin-top: -100px;
+}
+#asd1{
+	float: right;
+	margin-right: 300px;
+	font-size: 25pt;
+	margin-top: -100px;
+}
+#asd2{
+	float: right;
+	margin-right: 300px;
+	font-size: 25pt;
+	margin-top: -100px;
+}
+#asd3{
+	
+	float: right;
+	margin-right: 300px;
+	font-size: 25pt;
+	margin-top: -100px;
+}

@@ -1,0 +1,147 @@
+.heading{
+  margin-top: 0px;
+  background-color: white;
+  top: 0px;
+  width: 100%;
+  border-bottom: solid darkred;
+   display: inline-block;
+   position: fixed;
+   z-index: 2;
+}
+
+.nav-bar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 23px 25px;
+  text-decoration: none;
+  font-size: 17px;
+   padding-left: 1.8em;   
+   
+}
+.dropdown1{
+  float: left;
+    font-size: 17px;    
+    color: black;
+    padding:10px;
+    background-color: white;
+    overflow: hidden;
+}
+.dropbtn {
+
+   font-size: 17px;    
+    border: none;
+    outline: none;
+    color: black;
+    padding:11.5px;
+    background-color: inherit;
+}
+.dropbtn:active .dropdown1{
+  background-color: darkred;
+  color:white;
+}
+.dropdownmenu1 {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdownmenu1 a {
+    float: none;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 25px 30px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.dropdown1:hover .dropdownmenu1 {
+    margin-top: 10px;
+    display: block;
+  
+}
+.dropdownmenu1 a:hover .dropbtn{
+  background-color: darkred;
+}
+
+ .dropdown1:hover, .heading a:hover {
+	display:block;
+	background-color:darkred;
+}
+
+
+.heading a.active {
+    background-color: darkred;
+    color: white;
+}
+
+	
+.image
+{
+height: 200px;
+width:200px;
+float:left;
+margin-left: 6.5em;
+margin-right: 10.5em;
+
+}
+
+#search{
+    float:right;
+}
+
+	
+input[type=text] {
+    width: 100px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: left; 
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    padding: 10px 20px 10px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 10%;
+}
+
+
+
+
+
+
+.dropbtn.active{
+	background-color: darkred;
+    color: white;
+}
+.dropdown1.active{
+  background-color: darkred;
+  color: white;
+}
+.btn1{
+    margin-top:50px;
+    float:right;
+    margin-right:-205px;
+    border-radius: 5px;
+    width:auto;
+    background-color: darkred;
+    z-index:5;
+}
+.btn1:hover{
+    cursor:pointer;
+}
+.heading h2{
+    background-color:darkred;
+    color:white;
+}

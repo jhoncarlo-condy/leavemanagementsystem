@@ -1,0 +1,137 @@
+
+
+
+.texts{
+	margin-left:9.0em;
+	font-size:15px;
+}
+.copyrights{
+	background-color:darkred;
+  height:20px;
+}
+.future{
+	margin-left:4.0em;
+	height:40%;
+	width:50%;
+}
+
+.emman-container{
+	background-image: url('back.jpg');
+	margin-top: 150px;
+}
+
+.emman-text{
+	float:right;
+	
+	padding: 23px 25px;
+	font-family:Times new roman;
+	font-size:25px;
+}
+
+.emman-text1{
+	float:right;
+	margin-right: 200px;
+	font-family:Times new roman;
+	font-size:25px;
+}
+.emman-text2{
+	float:right;
+	margin-right: 250px;
+	font-family:Times new roman;
+	font-size:25px;
+}
+
+.img{	
+	display:block;
+	margin:block;	
+	width:40%;
+	align:center;
+	
+}
+.fonter{
+font-family:Lucida Handwriting;
+text-align:center;	
+	
+}
+.righty{
+	float:right;
+	padding: 23px 25px;
+	
+}
+
+
+
+.admin-banner{
+	width: 50%;
+	height: 100px;
+	background-color: darkred;
+	margin-top: 210px;
+}
+
+.banner-text p{
+	color:white;
+	font-family: arial black;
+	padding: 30px;
+	font-size: 20pt;
+}
+.admission-title{
+	margin-left: 10px;
+	font-size: 18pt;
+}
+.admin-requirements img{
+	height: 30px;
+	width: 30px;
+	margin-left: 10px;
+}
+.emman-container figure:hover img {
+  opacity: 1;
+  -webkit-animation: flash 1.5s;
+  animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+  0% {
+    opacity: .4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes flash {
+  0% {
+    opacity: .4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.emman-container1 figure {
+  position: relative;
+}
+.emman-container1 figure::before {
+  position: absolute;
+  top: 0;
+  left: -75%;
+  z-index: 2;
+  display: block;
+  content: '';
+  width: 50%;
+  height: 100%;
+  background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+  background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+  -webkit-transform: skewX(-25deg);
+  transform: skewX(-25deg);
+}
+.emman-container1 figure:hover::before {
+  -webkit-animation: shine .75s;
+  animation: shine .75s;
+}
+@-webkit-keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
+}

@@ -1,0 +1,63 @@
+
+
+.footer{
+  background-color: white;
+  position: relative;
+  margin-bottom: 0px;
+}
+
+.footer:hover .inq{
+	background-color: darkred;
+	opacity: 0.6%;
+	color: white;
+
+}
+
+.footer:hover{
+	background-color: darkred;
+	opacity: 0.6%;
+	color: white;
+
+}
+
+.footer-menu img{
+	border-radius: 200px;
+	height: 100px;
+	width: 100px;
+	margin-left:50px;
+	margin-right: 50px;
+	
+
+}
+#left-footer{
+	margin-left: 320px;
+}
+#twitter-text-footer{
+	margin-left: 60px;
+}
+#gmail-text-footer{
+	margin-left: 70px;
+}
+#call-text-footer{
+	margin-left: 80px;
+}
+
+
+.inq{
+font-size:25px;
+margin-left: 130px;
+}
+
+
+
+
+.texts{
+	margin-left:9.0em;
+	font-size:15px;
+}
+.copyrights{
+background-color:darkred;
+  height:20px;
+margin-top: 0px;
+}
+
